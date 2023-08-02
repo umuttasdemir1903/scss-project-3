@@ -1,0 +1,18 @@
+@import "./scss/normalize";
+@import "./scss/formalize";
+@import "./scss/variables";
+@import "./scss/header";
+@import "./scss/content";
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+
+  a,p{
+    font-size: $my-font;
+  }

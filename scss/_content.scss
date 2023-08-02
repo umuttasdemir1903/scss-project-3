@@ -1,0 +1,109 @@
+.main {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+
+  &-about {
+    img {
+      width: 240px;
+      height: 240px;
+      margin-top: 40px;
+      border-radius: 50%;  
+    }
+    &-title {
+      margin-top: 30px;
+
+      h3 {
+        padding-bottom: 10px;
+      }
+
+      h4 {
+        padding-bottom: 25px;
+      }
+      button {
+        width: 100%;
+        height: 36px;
+        border: 1px solid rgba(27, 31, 35, 0.2);
+        background-color: #eff3f6;
+        background-image: linear-gradient(-180deg, #fafbfc, #eff3f6 90%);
+        border-radius: 3px;
+      }
+    }
+    &-dsc {
+      margin-top: 15px;
+    }
+  }
+
+  &-projects {
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 40px;
+    &-links {
+      display: flex;
+      justify-content: space-between;
+      a{
+        color: #586009;
+      }
+    }
+
+    .section{
+        margin-top: 30px;
+        display: flex;
+        justify-content:space-between ;
+
+       a{
+        font-size: 17px;
+        color: #586009;
+        margin-right: 10px;
+       }
+    }
+
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+
+        &-bar{
+            margin-top: 10px;
+            margin-right: 10px;
+            padding: 10px;
+            border: 1px solid #ccc; 
+            width: 450px;
+            height: 100px;
+            position: relative;
+           
+            .up{
+                display: flex;
+                align-items: center;
+                .right{
+                    svg{
+                        position: absolute;
+                        right: 10px;
+                    }
+                }
+                a{
+                    color: blue;
+                    margin-left: 5px;
+                }
+            }
+
+            .down{
+                display: flex;
+                align-items: center;
+                margin-top: 40px;
+                margin-left: 10px;
+                span{
+                    height: 12px;
+                    width: 12px;
+                    border-radius: 50%;
+                    display: inline-block;
+                    margin-right: 5px;
+                    background-color: rgb(214, 214, 0);
+                }
+              
+            }
+        }
+  }
+}
